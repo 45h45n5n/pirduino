@@ -15,6 +15,8 @@ void buzzSignalStop(){
 	pinMode(BUZZER_PIN, INPUT);
 }
 
+void
+
 void buzzPowerError(){
 	buzzSignalStop();
 	tone(BUZZER_PIN, FREQ_POWER_ERROR);
